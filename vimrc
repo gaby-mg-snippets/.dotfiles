@@ -55,3 +55,13 @@ augroup END
 if has('syntax') && has('eval')
   packadd! matchit
 endif
+
+" Automatically update the Last change date in this vimrc file
+autocmd BufWritePre ~/.vimrc call UpdateLastChangeLine()
+
+function! UpdateLastChangeLine()
+    let l:line_number = search('^" Last change: ')
+    if l:line_number > 0
+        execute l:line_number . 's#^" Last change:.*#" Last change:  ' . strftime("%Y %b %d")#'
+    endif
+endfunction
