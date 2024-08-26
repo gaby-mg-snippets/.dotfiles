@@ -1,7 +1,9 @@
-" An example for a vimrc file.
+" My personal vimrc file
 "
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last change:	2019 Dec 17
+" Maintainer:	Gaby Molina Goigoux <gabymg@gabymg.es>
+" Last change:	2024 Aug 27
+"
+" This file is based on the original vimrc example provided by Bram Moolenaar.
 "
 " To use it, copy it to
 "	       for Unix:  ~/.vimrc
@@ -9,6 +11,9 @@
 "	 for MS-Windows:  $VIM\_vimrc
 "	      for Haiku:  ~/config/settings/vim/vimrc
 "	    for OpenVMS:  sys$login:.vimrc
+"
+" This vimrc file is part of my .dotfiles repository on GitHub.
+" Repository: https://github.com/gaby-mg-snippets/tars-.dotfiles
 
 " When started as "evim", evim.vim will already have done these settings, bail
 " out.
