@@ -1,3 +1,9 @@
 # README - Dotfiles
 
-This repository contains my personal configuration files (dotfiles) for various tools and applications.
+This repository contains my personal configuration files (dotfiles) for
+various tools and applications. These files are:
+
+- bash_aliases
+- bashrc
+- gitconfig
+- vimrc
