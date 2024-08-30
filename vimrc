@@ -33,6 +33,7 @@ if &t_Co > 2 || has("gui_running")
   set hlsearch
 endif
 
+" Enable modelines to allow per-file Vim settings.
 set modeline
 
 " Put these in an autocmd group, so that we can delete them easily.
